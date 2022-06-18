@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="EventoDiNavigazioneGUI">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nomeApplicazione" minOccurs="1" maxOccurs="1" nillable="false">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:minLength value="1"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="IPClient" minOccurs="1" maxOccurs="1" nillable="false">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:minLength value="1"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="dataCorrente" minOccurs="1" maxOccurs="1" nillable="false">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:minLength value="1"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="oraCorrente" minOccurs="1" maxOccurs="1" nillable="false">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:minLength value="1"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="etichettaEvento" minOccurs="1" maxOccurs="1" nillable="false">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:minLength value="1"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

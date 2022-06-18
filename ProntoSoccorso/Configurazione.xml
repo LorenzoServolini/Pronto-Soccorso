@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParametriDiConfigurazione>
+	<numeroRigheTabella>5</numeroRigheTabella>
+	<numeroGiorniPeriodo>6</numeroGiorniPeriodo>
+	<font>System Regular</font>
+	<dimensioneNomeApplicazione>40</dimensioneNomeApplicazione>
+	<dimensioneTitoloTabella>20</dimensioneTitoloTabella>
+	<dimensioneTitoloGrafico>20</dimensioneTitoloGrafico>
+	<IPDatabase>127.0.0.1</IPDatabase>
+	<portaDatabase>3306</portaDatabase>
+	<usernameDatabase>root</usernameDatabase>
+	<passwordDatabase></passwordDatabase>
+	<IPServerLog>127.0.0.1</IPServerLog>
+	<portaServerLog>8080</portaServerLog>
+	<IPClient>127.0.0.1</IPClient>
+</ParametriDiConfigurazione>
